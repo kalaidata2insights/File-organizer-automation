@@ -2,7 +2,7 @@ import os
 import shutil
 
 def automatefolder():
-    pathfolder = 'C:\\Users\\Admin\\Documents\\Sales performance analysis'
+    pathfolder = 'give path_where u need to organize file'
     files= [f for f in os.listdir(pathfolder)]
     
     for file in files:
