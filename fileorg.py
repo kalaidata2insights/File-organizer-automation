@@ -2,7 +2,7 @@ import os
 import shutil
 
 def automatefolder():
-    pathfolder = 'C:\\Users\\Admin\\Downloads'
+    pathfolder = 'give_path'
     files= [f for f in os.listdir(pathfolder)]
     
     for file in files:
